@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `batf` (`id` int(10) unsigned NOT NULL AUTO_INCREMENT,`addeddatetime` datetime NOT NULL,`content` mediumtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,`tag` int(10) unsigned NOT NULL, PRIMARY KEY (`id`),KEY `addeddatetime` (`addeddatetime`)) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1;

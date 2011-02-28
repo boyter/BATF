@@ -1,0 +1,42 @@
+
+
+		  ___   _ _____ ___ 
+		 | _ ) /_\_   _| __|
+		 | _ \/ _ \| | | _| 
+		 |___/_/ \_\_| |_|  
+                    
+	        Big Arse/Ass Text File
+
+
+Install Instructions
+
+1. Create a mysql database with the name of your choosing.
+2. Execute the supplied batf.sql script against the database.
+3. Copy the files to a directory that can be served by your browser
+4. Edit config.php and in the definitions section change the database settings to match your config.
+5. Browse to the website that corresponds to the directory
+
+
+
+Usage
+
+Just start typing into the text area. When you pause for a few seconds the text will save. 
+To see versions click the toggle next to the versions text on the left hand side. 
+To see tags click the toggle next to the tag text on the left hand side. 
+You can always force a save by clicking the disk icon.
+Click on a version's or tag's text to see the version or tag in a new window.
+In the new version window you can,
+  * Click diff (fork icon) to see diff against the most recent version
+  * Click plain (text icon) to go back to plain view
+  * Click next or previous to go to the next or previous version (if exists)
+
+
+
+General Info
+
+All code unless otherwise stated is licenced GPLv3 (or later)
+All code unless otherwise stated is copyright Ben Boyter
+All images except the logo and toggle images are Copyright Mark James (http://www.famfamfam.com/) and
+licenced Creative Commons see http://www.famfamfam.com/lab/icons/silk/
+BATF Logo, toggle images and background grey are Copyright Ben Boyter and licenced http://creativecommons.org/licenses/by/3.0/ 
+If you use the above images for any other works please just provide attribution in the form of the line above.
