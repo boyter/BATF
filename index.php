@@ -44,7 +44,7 @@ img { border: 0 none; }
 <table id="full">
 <tr>
 <td valign="top" width="20%">
-<a href="."><img src="batf.png" /></a><a href="#" id="savebutton" alt="save"><img src="disk.png" alt="tag" /></a> <a href="#" id="tagbutton"><img src="tag_blue_add.png" /></a> <!--<a href="#" id="refreshbutton"><img src="arrow_refresh.png" /></a>--><br />
+<a href="."><img src="batf.png" /></a><!--<a href="#" id="savebutton" alt="save"><img src="disk.png" alt="tag" /></a>--><a href="#" id="tagbutton"><img src="tag_blue_add.png" /></a> <!--<a href="#" id="refreshbutton"><img src="arrow_refresh.png" /></a>--><br />
 versions <a class="toggle" href="#"><img src="toggle.gif"></a>
 	<ul class="revs">
 	</ul>
