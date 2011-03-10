@@ -17,7 +17,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with BATF.  If not, see <http://www.gnu.org/licenses/>.
 */
-
+var dirty = false;
 $(document).ready(function () {
 	getversions();
 	gettags();
@@ -25,7 +25,6 @@ $(document).ready(function () {
 	$("#styled").change(function() {
 		dirty = true;
 	});
-	dirty = false;
 	
 	var refreshId = setInterval(function() {
       getversions();
@@ -39,11 +38,10 @@ $(document).ready(function () {
     });
 
 	$(window).bind("beforeunload", function(e){
-		if(dirty) {
+		if(dirty == true) {
 		  msg = "You have unsaved changes. Are you sure that you want to close?";
 		  return e.returnValue = msg; 
 		}
-		return true;
 	});
 	
 	
