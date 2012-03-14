@@ -27,7 +27,7 @@ if(isset($_POST['content'])) {
     $tag = 1;
   }
   $clean_content = mysql_real_escape_string($_POST['content']);
-  mysql_query("INSERT INTO `batf`.`batf` (`id`, `addeddatetime`, `content`,`tag`) VALUES (NULL, now(), '$clean_content',$tag);");
+  mysql_query("INSERT INTO `batf` (`id`, `addeddatetime`, `content`,`tag`) VALUES (NULL, now(), '$clean_content',$tag);");
   echo "saved";
 }
 else {
